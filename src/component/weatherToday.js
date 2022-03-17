@@ -56,7 +56,7 @@ const WeatherToday = () => {
         <div className="left-main">
           <div className="info-weather">
             <div className="temp-today">
-              <span className="today">today</span>
+              <span className="today">toda</span>
               <span className="date">
                 {convertEpoch(state.infoCity.sunrise)}
               </span>
