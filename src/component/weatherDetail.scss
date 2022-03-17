@@ -1,0 +1,76 @@
+@import "../style/main/media_Query.scss";
+.weather-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 1em;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 3em;
+  @include laptop() {
+    padding: 3em 8rem;
+  }
+
+  .caption-weather-detail {
+    color: #fff;
+    opacity: 85%;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+  }
+}
+
+.container-section-detail {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  @include laptop() {
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+  }
+  gap: 1em;
+}
+.section-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  gap: 1em 0;
+
+  .info-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em 0;
+  }
+
+  .caption-section {
+    color: #072a41;
+    opacity: 60%;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .value {
+    color: #072a41;
+    font-size: 1.4rem;
+    font-weight: 500;
+    @include laptop() {
+      font-size: 1.7rem;
+    }
+  }
+
+  .image-detail-container {
+    width: 100%;
+    text-align: right;
+  }
+  .image-detail {
+    width: 40px;
+    height: 40px;
+
+    @include laptop {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}

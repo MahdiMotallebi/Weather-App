@@ -1,0 +1,101 @@
+.top-site {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-inline: 2em;
+  gap: 1.5em;
+}
+
+.top-site .container-input {
+  position: relative;
+  width: 60%;
+}
+
+.top-site .container-input ::-webkit-input-placeholder {
+  color: var(--light-white);
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.top-site .container-input :-ms-input-placeholder {
+  color: var(--light-white);
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.top-site .container-input ::-ms-input-placeholder {
+  color: var(--light-white);
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.top-site .container-input ::placeholder {
+  color: var(--light-white);
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.top-site .container-input .input-city {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--light-white);
+  padding: 0.5em 0;
+  font-size: 1.1em;
+  width: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.top-site .container-input .btn-search {
+  border: none;
+  background-color: transparent;
+  color: var(--light-white);
+  font-size: 1.2em;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+}
+
+.temperature {
+  background: #fff;
+  border-radius: 20px;
+  width: 120px;
+  padding: 0.4em 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.7em;
+}
+
+.temperature .celsius,
+.temperature .fahrenheit {
+  color: var(--light-dark);
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.temperature .slash {
+  font-weight: bold;
+}
+
+.disable {
+  pointer-events: none;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=header.css.map */
