@@ -8,7 +8,7 @@ const Section = ({ hour, image, temp, id }) => {
   };
   return (
     <div id={id} className="section" onClick={(e) => handleWeather(e)}>
-      <time className="hour">{hour}</time>
+      <span className="hour">{hour}</span>
       <div className="info-section">
         <img src={image} alt={image} className="img-section" />
         <span className="temp">{temp}&#176;</span>
