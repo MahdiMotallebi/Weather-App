@@ -3,3 +3,5 @@
 # WeatherApp with react js & redux toolkit
 
 ♦ More info and UI/UX files: https://bigsondev.com/projects/weather-app-project/
+
+♦ Online demo: https://motallebi-weatherapp.netlify.app/
