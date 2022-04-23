@@ -10,7 +10,7 @@ const FetchData = () => {
   const getDataApi = async () => {
     try {
       const res = await axios.get(
-        `http://api.openweathermap.org/data/2.5/forecast?q=${
+        `https://api.openweathermap.org/data/2.5/forecast?q=${
           state.city
         }&units=${
           state.isCelsius ? "metric" : "imperial"
