@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   infoCity: {},
   list: [],
-  city: "london",
+  city: "paris",
   index: 0,
   isLoading: true,
   temp: "metric",
