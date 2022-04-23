@@ -13,21 +13,21 @@ const App = () => {
   return (
     <>
       <FetchData />
-      {/* {state.isLoading ? (
+      {state.isLoading ? (
         <Loading />
-      ) : ( */}
-      <>
-        <Header />
-        {state.isCity ? (
-          <>
-            <WeatherToday />
-            <WeatherDetail />
-          </>
-        ) : (
-          <NoCity />
-        )}
-      </>
-      {/* )} */}
+      ) : (
+        <>
+          <Header />
+          {state.isCity ? (
+            <>
+              <WeatherToday />
+              <WeatherDetail />
+            </>
+          ) : (
+            <NoCity />
+          )}
+        </>
+      )}
     </>
   );
 };
