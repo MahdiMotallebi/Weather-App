@@ -33,7 +33,7 @@ const Header = () => {
             }}
           />
           <button type="submit" className="btn-search">
-            <AiOutlineSearch />
+            {/* <AiOutlineSearch /> */}
           </button>
         </form>
       </div>
